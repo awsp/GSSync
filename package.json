@@ -1,0 +1,17 @@
+{
+  "name": "gs_sync",
+  "version": "1.0.0",
+  "description": "Google Spreadsheet Sync for Lomino Hawaii",
+  "main": "login_credential.js",
+  "dependencies": {
+    "edit-google-spreadsheet": "^0.2.16",
+    "mongodb": "^1.4.28",
+    "prompt": "^0.2.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anthony S. Wu",
+  "license": "MIT"
+}
