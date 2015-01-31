@@ -40,7 +40,7 @@ GSSync.prototype.doSpreadsheet = function () {
     }, function sheetReady(err, spreadsheet) {
       if (err) {
         console.log(err);
-        return ;
+        process.exit(1);
       }
 
       spreadsheet.receive(function (err, rows, info) {
@@ -52,6 +52,8 @@ GSSync.prototype.doSpreadsheet = function () {
 
           var collection = db.collection(loginCredential.mongo.collection);
           var batch = collection.initializeUnorderedBulkOp();
+
+          console.log("Preparing to insert collection: " + loginCredential.mongo.collection);
 
           for (var i in rows) {
             batch.insert(rows[i]);

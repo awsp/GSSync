@@ -1,6 +1,6 @@
 {
   "name": "gs_sync",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Google Spreadsheet Sync for Lomino Hawaii",
   "main": "login_credential.js",
   "dependencies": {
