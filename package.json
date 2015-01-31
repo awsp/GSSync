@@ -13,5 +13,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Anthony S. Wu",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/awsp/GSSync"
+  },
+  "bugs": {
+    "url": "https://github.com/awsp/GSSync/issues"
+  },
+  "homepage": "https://github.com/awsp/GSSync"
 }
