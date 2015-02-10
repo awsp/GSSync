@@ -2,7 +2,7 @@
 Google Spreadsheet Syncs to Meteor.js MongoDb
 
 # How to use
-- Navigate into folder
+- Navigate into folder, install all the dependencies.
 ```
 $ npm install
 ```

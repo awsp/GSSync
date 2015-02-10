@@ -3,7 +3,7 @@ module.exports = {
   debug: true,
   mongo: {
     host: 'localhost',
-    port: '3001',
+    port: 27017,
     database: 'meteor',
     collection: 'your_collection_name',
   },
