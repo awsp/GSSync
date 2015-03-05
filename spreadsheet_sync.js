@@ -1,5 +1,5 @@
 /**
- * LHKanriApp Google Spreadsheet Sync
+ * Google Spreadsheet Sync
  * Obtain spreadsheet data and sync with MongoDB.
  *
  * Required Scopes:
@@ -17,7 +17,7 @@
  * @env bash shell
  * @author Anthony S. Wu
  * @organization S S Enterprise, Inc.
- * @version 1.0.0
+ * @version 1.0.1
  */
 
 
@@ -33,6 +33,6 @@ if (fs.existsSync(configPath)) {
   gss.init();
 }
 else {
-  console.log('Please provide a spreadsheet_sync.js file for your personal credentials. ');
+  console.log('Please provide a spreadsheet_sync_config.js file for your personal credentials. ');
   process.exit();
 }

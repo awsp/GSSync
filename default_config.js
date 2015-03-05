@@ -5,7 +5,7 @@ module.exports = {
     host: 'localhost',
     port: 27017,
     database: 'meteor',
-    collection: 'your_collection_name',
+    collection: 'your_collection_name'
   },
   dbSocket: function () {
     return 'mongodb://' + this.mongo.host + ':' + this.mongo.port + '/' + this.mongo.database;
