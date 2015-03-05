@@ -17,7 +17,7 @@ $ cp default_config.js spreadsheet_sync_config.js
   - Edit spreadsheet's name / ID as well as worksheets name / ID
   - **[Optional]** Edit Google username and password if you don't want to be prompted every time.
 
-- Run
+- Execute the following command along with meteor instance is up. 
 ```
 node spreadsheet_sync.js
 ```
